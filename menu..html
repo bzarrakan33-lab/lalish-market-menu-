@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>منيو لالش ماركت</title>
+  <style>
+    body {
+      font-family: "Tahoma", sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      color: #333;
+    }
+    .menu {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .item {
+      background: #fff;
+      border-radius: 12px;
+      padding: 15px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+      transition: transform 0.2s ease;
+    }
+    .item:hover {
+      transform: scale(1.05);
+    }
+    .item img {
+      width: 100%;
+      height: 150px;
+      object-fit: contain;
+      border-radius: 8px;
+    }
+    .item h3 {
+      margin: 10px 0 5px;
+      font-size: 18px;
+      color: #444;
+    }
+    .item p {
+      margin: 0;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <h1>🍫🥤 منيو لالش ماركت</h1>
+
+  <div class="menu">
+    <div class="item">
+      <img src="https://i.imgur.com/Yk6X6Ks.png" alt="كندر">
+      <h3>كندر</h3>
+      <p>1500 د.ع</p>
+    </div>
+
+    <div class="item">
+      <img src="https://i.imgur.com/3nGxlzT.png" alt="بيبسي">
+      <h3>بيبسي</h3>
+      <p>1000 د.ع</p>
+    </div>
+
+    <div class="item">
+      <img src="https://i.imgur.com/kW0T0Po.png" alt="كوكاكولا">
+      <h3>كوكاكولا</h3>
+      <p>1000 د.ع</p>
+    </div>
+
+    <div class="item">
+      <img src="https://i.imgur.com/Q0x9M7W.png" alt="توريتوز">
+      <h3>توريتوز</h3>
+      <p>2000 د.ع</p>
+    </div>
+
+    <div class="item">
+      <img src="https://i.imgur.com/y1oM8Lr.png" alt="ليز">
+      <h3>ليز</h3>
+      <p>1500 د.ع</p>
+    </div>
+
+    <div class="item">
+      <img src="https://i.imgur.com/DwU6T2p.png" alt="مشروبات أخرى">
+      <h3>مشروبات متنوعة</h3>
+      <p>1000-2000 د.ع</p>
+    </div>
+  </div>
+</body>
+</html>
+
